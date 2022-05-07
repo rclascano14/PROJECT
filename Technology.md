@@ -8,3 +8,6 @@ We will use pgadmin to store our database. In our Conda environment we will use 
 
 ## Machine Learning
 We will use the sklearn model package for our machine learning. We will use a Linear Regression model and our target value in our training set will be "Salary" which our model will predict from all the other feature we are able to supply to try and determine what the salary will be for a player in 2015. We will fit the model using the StandardScaler to transform and scale the data to help increase the model accuracy. 
+
+## Dashboard
+We will use Tableau to create visualizations using the dashboard and story capabilities to create our presentation and we will import our data from our database and pandas to create and tell the story of our data outputs.  
