@@ -1,4 +1,5 @@
 # Baseball Salary Project
+`Analyzing the correlation between hitting perfomance and salary for MLB athletes using machine learning models and using this correlation to predict future data.`
 
 ## Resources
 - Jupyter Notebook
