@@ -12,6 +12,14 @@
 - Tableau
 - Data: batting.csv, batting_filtered.csv, batting_salary.csv, salary.csv, salary_filtered.csv
 
+## Documentation
+The <a href="https://github.com/rclascano14/PROJECT/tree/main/SQL%20Files" target="_blank">SQL Files</a> folder contains all the necessary scripts to create, filter and merge the databases used in this project.
+
+This folder contains 3 main files:
+- The document that contains the schema of the two main tables used in the database(batting.csv and salary.csv) is <a href="https://github.com/rclascano14/PROJECT/blob/main/SQL%20Files/schema.sql" target="_blank">schema.sql</a>
+- The document that contains the filtering of these two tables from 2009 to 2014 is <a href="https://github.com/rclascano14/PROJECT/blob/main/SQL%20Files/filtering.sql" target="_blank">filtering.sql</a>
+- The document that merges both filtered datasets is <a href="https://github.com/rclascano14/PROJECT/blob/main/SQL%20Files/merge_views.sql" target="_blank">merge_views.sql</a>
+
 ## Overview of Project
 
 - Our project revolves around the topic of salaries in Major League Baseball(MLB) from 2009 to 2015 and the relationship that batting stats have in regards to a player's salary. We are going to look at the hitting stats for the years 2009-2014 to gain insights on both the hitting and salary stats. Once we have completed our extraction and transformation of the data, we will then test the 2015 data in a linear regression model to see how much of a correlation hitting performance has with the salary a player is paid. It is our hypothesis that there will be a very strong correlation between these two variables.
