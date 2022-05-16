@@ -39,6 +39,28 @@ This folder contains 3 main files:
 
 - We pulled our Data from the Lahman's Baseball Datasets on SeanLahman.com. This website has baseball data from 1871-2021. This information had the hitting statistics we are using from 2009-2015 and the salary data from 2009-2015 as well. The hitting dataset had 22 columns and the salary dataset had 5 columns. They both shared two IDs which we could choose to merge on, and we chose to use the player_id column as they held unique IDs for each player in the dataset.
 
+#### Base Metrics
+These are the base metrics we obtained from Kaggle. These metrics do not require any calculation, however, these are the base for our analysis.
+- 'year', 
+- 'g' - games played in the season 
+- 'ab'- at-bats in the season 
+- 'r' - runs scored in the season 
+- 'h' - hits in the season 
+- 'double' 
+- 'triple', 
+- 'hr' - home runs in the season 
+- 'rbi' - runs batted in during the season, 
+- 'sb' - stolen bases
+- 'cs' - caught stealing 
+- 'bb' - walks in the season 
+- 'so' - strikeouts in the season 
+- 'ibb' - intentional walks in the season
+- 'hbp' - hit by pitches in the season 
+- 'sh' - sacrifice hits 
+- 'sf' - sacrifice flies 
+- 'g_idp' - grounded into double play 
+- 'single' 
+
 ### Communication Procedures
 
 - We are using the Slack platform for the majority of our communication. In addition, we are keeping in contact on a daily basis regarding progress, updates, and discussing any questions. Lastly, we are sharing work through the usage of Google Docs to work on documents collaboratively and we are actively particpating in classroom hours between 7-9 PM on Monday and Wednesdays to receive and assign tasks for the week.
