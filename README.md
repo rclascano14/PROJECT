@@ -10,6 +10,8 @@
 - SQL
 - PgAdmin4
 - Tableau
+- [Project Presentation](https://docs.google.com/presentation/d/1H_cFUEjeqKyBYgi1mxI9yD7ji5-IQwog0N3KH_S9BRk/edit?usp=sharing)
+- [Project Dashboard](https://docs.google.com/presentation/d/1GJHaNujvFIHyS44DZdj0sWGU120Xqr2fwaCd0lOMtCM/edit?usp=sharing)
 - Data: batting.csv, batting_filtered.csv, batting_salary.csv, salary.csv, salary_filtered.csv
 
 ## Documentation
