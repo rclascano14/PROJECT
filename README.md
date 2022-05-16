@@ -12,6 +12,14 @@
 - Tableau
 - Data: batting.csv, batting_filtered.csv, batting_salary.csv, salary.csv, salary_filtered.csv
 
+## Documentation
+The <a href="https://github.com/rclascano14/PROJECT/tree/main/SQL%20Files" target="_blank">SQL Files</a> folder contains all the necessary scripts to create, filter and merge the databases used in this project.
+
+This folder contains 3 main files:
+- The document that contains the schema of the two main tables used in the database(batting.csv and salary.csv) is <a href="https://github.com/rclascano14/PROJECT/blob/main/SQL%20Files/schema.sql" target="_blank">schema.sql</a>
+- The document that contains the filtering of these two tables from 2009 to 2014 is <a href="https://github.com/rclascano14/PROJECT/blob/main/SQL%20Files/filtering.sql" target="_blank">filtering.sql</a>
+- The document that merges both filtered datasets is <a href="https://github.com/rclascano14/PROJECT/blob/main/SQL%20Files/merge_views.sql" target="_blank">merge_views.sql</a>
+
 ## Overview of Project
 
 - Our project revolves around the topic of salaries in Major League Baseball(MLB) from 2009 to 2015 and the relationship that batting stats have in regards to a player's salary. We are going to look at the hitting stats for the years 2009-2014 to gain insights on both the hitting and salary stats. Once we have completed our extraction and transformation of the data, we will then test the 2015 data in a linear regression model to see how much of a correlation hitting performance has with the salary a player is paid. It is our hypothesis that there will be a very strong correlation between these two variables.
@@ -30,6 +38,42 @@
 ### Description of the Dataset
 
 - We pulled our Data from the Lahman's Baseball Datasets on SeanLahman.com. This website has baseball data from 1871-2021. This information had the hitting statistics we are using from 2009-2015 and the salary data from 2009-2015 as well. The hitting dataset had 22 columns and the salary dataset had 5 columns. They both shared two IDs which we could choose to merge on, and we chose to use the player_id column as they held unique IDs for each player in the dataset.
+
+#### Base Metrics
+These are the base metrics we obtained from Kaggle. These metrics do not require any calculation, however, these are the base for our analysis.
+- 'year', 
+- 'g' - games played in the season 
+- 'ab'- at-bats in the season 
+- 'r' - runs scored in the season 
+- 'h' - hits in the season 
+- 'double' 
+- 'triple', 
+- 'hr' - home runs in the season 
+- 'rbi' - runs batted in during the season, 
+- 'sb' - stolen bases
+- 'cs' - caught stealing 
+- 'bb' - walks in the season 
+- 'so' - strikeouts in the season 
+- 'ibb' - intentional walks in the season
+- 'hbp' - hit by pitches in the season 
+- 'sh' - sacrifice hits 
+- 'sf' - sacrifice flies 
+- 'g_idp' - grounded into double play 
+- 'single' 
+
+#### Calculated Metrics
+- 'slg %' - slugging percentage, Slugging percentage represents the total number of bases a player records per at-bat
+    - ![First Equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7BTotal%20Bases%7D%7BNumber%20of%20at%20Bats%7D)
+- 'obp' -  on base percentage, OBP refers to how frequently a batter reaches base per plate appearance
+    - ![second equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bhits&plus;walks&plus;hits%20by%20pitch%7D%7BAt%20Bats%20&plus;%20walks&plus;hits%20by%20pitch%20&plus;%20sacrifice%20flies%7D)
+- 'batting avg' - batting average is determined by dividing a player's hits by his total at-bats 
+    - ![Third Equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bhits%7D%7Bat%20bats%7D)
+- 'tb' - total bases, refer to the number of bases gained by a batter through his hits 
+- 'ops' - On-base plus slugging is a sabermetric baseball statistic calculated as the sum of a player's on-base percentage and slugging percentage
+    - obp*slg %
+- 'rc' - runs created estimates a player's offensive contribution in terms of total runs
+- 'babip' - batting average on balls in play measures how many of a batter’s balls in play go for hits
+- 'pa' - plate appearance (denoted by PA) each time a player completes a turn batting
 
 ### Communication Procedures
 
