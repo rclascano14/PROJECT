@@ -10,6 +10,8 @@
 - SQL
 - PgAdmin4
 - Tableau
+- [Google Slides Presentation](https://docs.google.com/presentation/d/1H_cFUEjeqKyBYgi1mxI9yD7ji5-IQwog0N3KH_S9BRk/edit?usp=sharing")
+- [Project Storyboard](https://docs.google.com/presentation/d/1GJHaNujvFIHyS44DZdj0sWGU120Xqr2fwaCd0lOMtCM/edit?usp=sharing)
 - Data: batting.csv, batting_filtered.csv, batting_salary.csv, salary.csv, salary_filtered.csv
 
 ## Documentation
@@ -61,6 +63,7 @@ These are the base metrics we obtained from Kaggle. These metrics do not require
 - 'g_idp' - grounded into double play 
 - 'single' 
 
+<<<<<<< HEAD
 #### Calculated Metrics
 - 'slg %' - slugging percentage, Slugging percentage represents the total number of bases a player records per at-bat
     - %5Cfrac%7B%5CTotal+Bases%7D%7B%5CNumber+of+at+Bats%7D
@@ -75,6 +78,8 @@ These are the base metrics we obtained from Kaggle. These metrics do not require
 - 'babip' - batting average on balls in play measures how many of a batter’s balls in play go for hits
 - 'pa' - plate appearance (denoted by PA) each time a player completes a turn batting
 
+=======
+>>>>>>> 3db000d287e6f72d241bfd426ab9072a28ebc9d2
 ### Communication Procedures
 
 - We are using the Slack platform for the majority of our communication. In addition, we are keeping in contact on a daily basis regarding progress, updates, and discussing any questions. Lastly, we are sharing work through the usage of Google Docs to work on documents collaboratively and we are actively particpating in classroom hours between 7-9 PM on Monday and Wednesdays to receive and assign tasks for the week.
