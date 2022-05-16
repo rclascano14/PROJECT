@@ -23,7 +23,7 @@
 
 ## Splitting the training and testing sets 
 
-- The data was initially split into the standard 75-25% split that skllearn defaults to. After running additional tests and playing with the information. We decided to adjust that to 80-20% as it increased our testing % to 18.6% from 17.3%.
+- The data was initially split into the standard 75-25% split that skllearn defaults to. We used the salary feature as the one for testing. After running additional tests and playing with the information. We decided to adjust that to 80-20% as it increased our testing % to 18.6% from 17.3%.
 
 
 ## Model Choice
