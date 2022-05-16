@@ -61,6 +61,20 @@ These are the base metrics we obtained from Kaggle. These metrics do not require
 - 'g_idp' - grounded into double play 
 - 'single' 
 
+#### Calculated Metrics
+- 'slg %' - slugging percentage, Slugging percentage represents the total number of bases a player records per at-bat
+    - \frac{\Total Bases}{\Number of at Bats}
+- 'obp' -  on base percentage, OBP refers to how frequently a batter reaches base per plate appearance
+    - \frac{\hits+walks+hits by pitch}{\At Bats + walks+hits by pitch + sacrifice flies}
+- 'batting avg' - batting average is determined by dividing a player's hits by his total at-bats 
+    - \frac{\hits}{\at bats}
+- 'tb' - total bases, refer to the number of bases gained by a batter through his hits 
+- 'ops' - On-base plus slugging is a sabermetric baseball statistic calculated as the sum of a player's on-base percentage and slugging percentage
+    - obp*slg %
+- 'rc' - runs created estimates a player's offensive contribution in terms of total runs
+- 'babip' - batting average on balls in play measures how many of a batter’s balls in play go for hits
+- 'pa' - plate appearance (denoted by PA) each time a player completes a turn batting
+
 ### Communication Procedures
 
 - We are using the Slack platform for the majority of our communication. In addition, we are keeping in contact on a daily basis regarding progress, updates, and discussing any questions. Lastly, we are sharing work through the usage of Google Docs to work on documents collaboratively and we are actively particpating in classroom hours between 7-9 PM on Monday and Wednesdays to receive and assign tasks for the week.
