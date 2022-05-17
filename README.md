@@ -41,6 +41,15 @@ This folder contains 3 main files:
 
 - We pulled our Data from the Lahman's Baseball Datasets on SeanLahman.com. This website has baseball data from 1871-2021. This information had the hitting statistics we are using from 2009-2015 and the salary data from 2009-2015 as well. The hitting dataset had 22 columns and the salary dataset had 5 columns. They both shared two IDs which we could choose to merge on, and we chose to use the player_id column as they held unique IDs for each player in the dataset.
 
+### Description of the Database
+After merging our two tables (Batting and Salary), we decided to filter them using views and merge this filtered data. The created views can be seen below.
+- <img width="182" alt="Screen Shot 2022-05-16 at 8 48 49 PM" src="https://user-images.githubusercontent.com/95834653/168711732-99af50ee-093d-4265-af76-ed0bac4833ae.png">
+- Batting_Filtered view: <img width="1077" alt="Screen Shot 2022-05-16 at 8 51 32 PM" src="https://user-images.githubusercontent.com/95834653/168711988-53d9fc3b-6ff8-4028-8a91-64d32e6d2ad0.png">
+- Salary_Filtered view: <img width="472" alt="Screen Shot 2022-05-16 at 8 52 26 PM" src="https://user-images.githubusercontent.com/95834653/168712076-ba8ec9e7-8e3a-4ca8-8997-c881e008f8ad.png">
+
+Batting filtered and Salary filtered contain the filtered data from 2009 to 2014. The batting_salary view contains the merged views. In the image below, we can see how the data looks like after the merging process.
+- <img width="1093" alt="Screen Shot 2022-05-16 at 8 53 01 PM" src="https://user-images.githubusercontent.com/95834653/168712163-2d11991d-5ce0-4c16-a368-5da4f221b246.png">
+
 #### Base Metrics
 These are the base metrics we obtained from Kaggle. These metrics do not require any calculation, however, these are the base for our analysis.
 - 'year', 
@@ -76,10 +85,6 @@ These are the base metrics we obtained from Kaggle. These metrics do not require
 - 'rc' - runs created estimates a player's offensive contribution in terms of total runs
 - 'babip' - batting average on balls in play measures how many of a batter’s balls in play go for hits
 - 'pa' - plate appearance (denoted by PA) each time a player completes a turn batting
-
-### Communication Procedures
-
-- We are using the Slack platform for the majority of our communication. In addition, we are keeping in contact on a daily basis regarding progress, updates, and discussing any questions. Lastly, we are sharing work through the usage of Google Docs to work on documents collaboratively and we are actively particpating in classroom hours between 7-9 PM on Monday and Wednesdays to receive and assign tasks for the week.
 
 ## Results
 
