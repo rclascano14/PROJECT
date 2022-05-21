@@ -99,6 +99,6 @@
 - This led to an accuracy of the binary classification of 63.4%.
 
 - We looked into other classification models and they produced the below results.
-![](https://github.com/rclascano14/PROJECT/tree/main/Resources/Model_Accuracy.PNG)
+![](https://github.com/rclascano14/PROJECT/blob/main/Resources/Model_Accuracy.PNG)
 
 - We are happy with the current results and may look to try and further see if we can remove pitchers in the datasets as they have salaries that will cause issues for our model. We may also look to remove features who have no value and are just creating noise. 
