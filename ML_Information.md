@@ -47,6 +47,21 @@
 
 ## Model Choice Change
 
+- Our original linear regression model struggled to find a correlation between hitting statistics and the salary of hitters. This could be due to there are a number of additional factors that affect pay for a hitter. This led our team to take a look at the data we had and we felt that we could classify players on whether they would be considered "Unpaid" or "Overpaid". 
+
+- The first thing we did was determine how to set the parameter that would be the measurement for how we would test this statement. We knew we wanted to use salary, but after looking at our data it was very skewed to the left. So for each season we took the median instead of the mean. This is the preferred choice with skewed datasets such as ours. 
+
+- Then we created two new columns. After getting the median amount for each year, each player was classified as either "highly paid" or "under paid". This would be the question, our model would try and answer, can we classify correctly, if a player was "highly paid" or "under paid" from the hitting statistics?
+
+- We kept our original Data and created stats, we also added 
+  - extra base hits (xbh) as the model seemed to find more information in power categories
+  - isolated power (iso) which is another power stat that we hoped would give our model more clarity.
+  - walks per plate appearance (bb/pa) and strikeouts per plate appearance (so/pa)
+
+- We also removed anyone who did not have an at-bat in our dataset. This was about 20% of our data. This allowed us to remove almost all pitchers and would leave only those who hit on an infrequent basis. 
+
+- Our original model used StandardScaler, but MinMaxScaler is supposed to handle datasets with a larger number of outliers which is more in line with our dataset. 
+
 - We chose a classification model and specifically Logistic Regression because as we wanted to answer the question of could our model classify someone as over or under the median and its simplistic implentation led us to going towards this direction. We felt that our data would struggle to find a way to pintpoint a numerical prediction, but the data could answer classification questions better.
 
 ### Pros of logistic regression models
@@ -64,3 +79,26 @@
 - Logistic regression requires a large dataset and also a large amount of training examples for it to succeed in classification.
 
 - Due to the simplistic nature of the model, it struggles with complex relationships. This model can be outperformed quite easily by Neural Networks if you are willing to invest the time and capital to create one.
+
+## Training of Our New Model
+
+- As stated earlier we chose to use MinMaxScaler as this package deals with data that has a larger amount of outliers. 
+
+- We removed the salary column, and we also removed the columns stating if a player was highly paid or under paid. 
+
+- The training and testing was split into a 75/25 split after multiple attempts to see how this affected the results.
+
+### Results of Our Model. 
+
+- In our Logistic Regression model we had
+  - True Positive(TP)  =  327
+  - False Positive(FP) =  202
+  - True Negative(TN)  =  263
+  - False Negative(FN) =  138
+
+- This led to an accuracy of the binary classification of 63.4%.
+
+- We looked into other classification models and they produced the below results.
+![](https://github.com/rclascano14/PROJECT/tree/main/Resources/Model_Accuracy.PNG)
+
+- We are happy with the current results and may look to try and further see if we can remove pitchers in the datasets as they have salaries that will cause issues for our model. We may also look to remove features who have no value and are just creating noise. 
