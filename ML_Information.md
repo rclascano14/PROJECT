@@ -45,3 +45,22 @@
 
 - Optimization can prove to be very time consuming and there is a risk of overfitting the model. In using the reduction features to combat overfitting you will risk overfitting irrevelant features and this could be very time-consuming and point your data in the wrong direction. 
 
+## Model Choice Change
+
+- We chose a classification model and specifically Logistic Regression because as we wanted to answer the question of could our model classify someone as over or under the median and its simplistic implentation led us to going towards this direction. We felt that our data would struggle to find a way to pintpoint a numerical prediction, but the data could answer classification questions better.
+
+### Pros of logistic regression models
+
+- The most benefical aspect of the model like its Linear counterpart is its simplicity. This also leads to it needing less computing power, and due to this it can be often a model to use to measure performance when starting out.
+
+- The model allows for the importance of features to be viewed. We can see how important a feature might be or if it lacks a connection with the question. 
+
+- Classification is using quite often with these types of model and it can be used not only very well in singular class, but with multi-class classification when needed.  
+
+### Cons of logistic regression models
+
+- Non-linear problems can't be solved with logistic regression due to its linear nature, and this often leads to having to engineer more features and transforming the data to answer the questions someone might pose.
+
+- Logistic regression requires a large dataset and also a large amount of training examples for it to succeed in classification.
+
+- Due to the simplistic nature of the model, it struggles with complex relationships. This model can be outperformed quite easily by Neural Networks if you are willing to invest the time and capital to create one.
