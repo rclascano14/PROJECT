@@ -85,7 +85,9 @@ These are the base metrics we obtained from Kaggle. These metrics do not require
 - 'rc' - runs created estimates a player's offensive contribution in terms of total runs
 - 'babip' - batting average on balls in play measures how many of a batter’s balls in play go for hits
 - 'pa' - plate appearance (denoted by PA) each time a player completes a turn batting
-
+ - extra base hits (xbh) as the model seemed to find more information in power categories
+ - isolated power (iso) which is another power stat that we hoped would give our model more clarity.
+ - walks per plate appearance (bb/pa) and strikeouts per plate appearance (so/pa)
 ## Results
 
 ## Summary
