@@ -44,8 +44,11 @@ This folder contains 3 main files:
 ### Description of the Database
 After merging our two tables (Batting and Salary), we decided to filter them using views and merge this filtered data. The created views can be seen below.
 - <img width="182" alt="Screen Shot 2022-05-16 at 8 48 49 PM" src="https://user-images.githubusercontent.com/95834653/168711732-99af50ee-093d-4265-af76-ed0bac4833ae.png">
-- Batting_Filtered view: <img width="1077" alt="Screen Shot 2022-05-16 at 8 51 32 PM" src="https://user-images.githubusercontent.com/95834653/168711988-53d9fc3b-6ff8-4028-8a91-64d32e6d2ad0.png">
-- Salary_Filtered view: <img width="472" alt="Screen Shot 2022-05-16 at 8 52 26 PM" src="https://user-images.githubusercontent.com/95834653/168712076-ba8ec9e7-8e3a-4ca8-8997-c881e008f8ad.png">
+#### Batting Filtered View
+<img width="1077" alt="Screen Shot 2022-05-16 at 8 51 32 PM" src="https://user-images.githubusercontent.com/95834653/168711988-53d9fc3b-6ff8-4028-8a91-64d32e6d2ad0.png">
+
+#### Salary Filtered View
+<img width="472" alt="Screen Shot 2022-05-16 at 8 52 26 PM" src="https://user-images.githubusercontent.com/95834653/168712076-ba8ec9e7-8e3a-4ca8-8997-c881e008f8ad.png">
 
 Batting filtered and Salary filtered contain the filtered data from 2009 to 2014. The batting_salary view contains the merged views. In the image below, we can see how the data looks like after the merging process.
 - <img width="1093" alt="Screen Shot 2022-05-16 at 8 53 01 PM" src="https://user-images.githubusercontent.com/95834653/168712163-2d11991d-5ce0-4c16-a368-5da4f221b246.png">
