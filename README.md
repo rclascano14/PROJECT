@@ -10,7 +10,7 @@
 - SQL
 - PgAdmin4
 - Tableau
-- [Project Dashboard (Tableau)](https://public.tableau.com/views/MLBAnalysis_16532653479920/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
+- [Final Project Dashboard (Tableau)](https://public.tableau.com/views/MLBAnalysis_16532653479920/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
 - [Project Presentation](https://docs.google.com/presentation/d/1H_cFUEjeqKyBYgi1mxI9yD7ji5-IQwog0N3KH_S9BRk/edit?usp=sharing)
 - [Project Dashboard (Google Slides)](https://docs.google.com/presentation/d/1GJHaNujvFIHyS44DZdj0sWGU120Xqr2fwaCd0lOMtCM/edit?usp=sharing)
 - Data: batting.csv, batting_filtered.csv, batting_salary.csv, salary.csv, salary_filtered.csv
