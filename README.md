@@ -191,6 +191,27 @@ These are the base metrics we obtained from Kaggle. These metrics do not require
 - This led to an accuracy of the binary classification of 63.4%.
 
 - We looked into other classification models and they produced the below results.
+
 ![](https://github.com/rclascano14/PROJECT/blob/main/Resources/Model_Accuracy.PNG)
 
 ## Summary
+
+### Recommendations for Future Analysis
+
+- The first recommendation we noted that we would have looked at if we had more time was removing pitchers from the dataset. The ability of pitchers to hit created situations where high salary players that were earned due to pitching cause confusion for our model.
+
+- Another recommendation would be to create a model that would be able to predict salaries and classifications that would take variables from the hitting statistics that were strong and combine it with pitching statistics, fielding statistics, general information (such as age, team, contract status), and take the variables that were strong in each category to create a better model.
+
+- Further working on how to effectively use or remove outliers in our dataset to help train the model. We had situations where certain statistics were 30 times over the standard deviation, but it hurt our accuracy when they were removed. 
+
+- Could it be possible to keep player IDs in the dataset and would that have helped with model accuracy? If the model could have known that a particular player who was paid a high salary previously, was just hurt for this season and that created a large difference in stats, they could have been able to know this is still a high paid player.
+
+- We could look to see how a deep learning model would have performed on the dataset versus the simplicity of regression.
+
+### Different Options We Could Have Chosen
+
+- Would it have been easier to choose pitching statistics? There would have been very few outcomes that a batter would have shown up in the dataset, as opposed to a pitcher showing up in the hitting dataset.
+
+- The years we chose to test. We had salary data from 1985, if we chose an early time period would that have changed our results?
+
+- The classification model gave much greater results than our prediction model, if we had known that we would have found more success with this outcome, we could have started with this question and this would have given us more time to refine and adjust the model.
