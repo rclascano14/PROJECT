@@ -189,12 +189,13 @@ These are the base metrics we obtained from Kaggle. These metrics do not require
 ### Results of Our Model. 
 
 - In our Logistic Regression model we had
-  - True Positive(TP)  =  327
-  - False Positive(FP) =  202
-  - True Negative(TN)  =  263
-  - False Negative(FN) =  138
+  - True Positive (TP) = 344
+  - False Positive (FP) = 202
+  - True Negative (TN) = 277
+  - False Negative (FN) = 107
 
-- This led to an accuracy of the binary classification of 63.4%.
+
+- This led to an accuracy of the binary classification of 66.7%.
 
 - We looked into other classification models and they produced the below results.
 
