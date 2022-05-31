@@ -144,7 +144,8 @@ These are the base metrics we obtained from Kaggle. These metrics do not require
 
 - Our original linear regression model struggled to find a correlation between hitting statistics and the salary of hitters. This could be due to there being a number of additional extraneous factors that affect pay for a hitter. This led our team to reevaluate our analysis of our data and we concurred that we could classify players on whether they would be considered "Unpaid" or "Overpaid". 
 
-- The first thing we did was determine how to set the parameter that would serve as the measurement for how we would test this statement. We knew we wanted to use salary, but after looking at our data it was very skewed to the left. Consequently, for each season we took the median instead of the mean. This is the preferred choice with skewed datasets such as ours. 
+- The first thing we did was determine how to set the parameter that would serve as the measurement for how we would test this statement. We knew we wanted to use salary, but after looking at our data it was very skewed to the left. Consequently, for each season we took the median instead of the mean. This is the preferred choice with skewed datasets such as ours.
+
 ![Salary Image](https://user-images.githubusercontent.com/95602006/171082442-da81f080-4088-443e-908e-eeb5f565d371.png)
 
 
