@@ -206,11 +206,11 @@ These are the base metrics we obtained from Kaggle. These metrics do not require
 ![Screen Shot 2022-05-30 at 10 03 02 PM](https://user-images.githubusercontent.com/95602006/171086009-323962a3-7104-42ed-8dcb-4297ee8b977b.png)
 > Interactive Feature: You can select which year or years you'd like to view the data for.
 
-<img width="1067" alt="Screen Shot 2022-05-30 at 10 19 31 PM" src="https://user-images.githubusercontent.com/95602006/171086157-9667b3c8-405f-42d1-848b-e4672a136cc2.png">
+<img width="1067" alt="Screen Shot 2022-05-30 at 10 19 31 PM" src="https://user-images.githubusercontent.com/95602006/171086157-9667b3c8-405f-42d1-848b-e4672a136cc2.png"> 
 > Interactive Feature: You can select which year or years you'd like to view the data for.
 
 <img width="1136" alt="Screen Shot 2022-05-30 at 10 20 50 PM" src="https://user-images.githubusercontent.com/95602006/171086265-6446a11c-0449-4690-9715-0fe4dfbb6039.png">
->Interactive Feature: You can select which year or years you'd like to view and you can select which stat you'd want to see the correlation against salary for.
+> Interactive Feature: You can select which year or years you'd like to view and you can select which stat you'd want to see the correlation against salary for.
 
 ## Summary
 
