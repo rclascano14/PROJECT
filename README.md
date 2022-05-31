@@ -99,6 +99,9 @@ These are the base metrics we obtained from Kaggle. These metrics do not require
 ##### Description of preliminary data preprocessing
 - The first step in our Machine Learning phase was preprocessing and to check to see if any data was missing. Our dataset had no missing values, but once we started to engineer new stats, there were cases where a number was divided by 0 thus creating NaNs and so we filled those with zeroes. Then we decided to bin the years (even though they were viewed as integers) into groups of 0,1,2, etc. We considered normalizing the data, but decided against it as our model standardizes the data prior to testing.
 
+![Project Heatmap](https://user-images.githubusercontent.com/95602006/171082006-16387766-d619-4f62-9987-69ad3203ce89.png)
+
+
 ##### Description of preliminary feature engineering and preliminary feature selection process
  
 - The feature engineering process involved creating additional columns based on the data that was given as well as giving more information to our dataset. The first step was to create more columns that sufficiently utilized the full extent of the stats present.
